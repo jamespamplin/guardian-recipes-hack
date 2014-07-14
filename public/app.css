@@ -4,6 +4,51 @@
 	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Regular.woff);
 }
 
+@font-face {
+	font-family: EgyptianText;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Medium.woff);
+	font-weight: bold;
+}
+
+
 html body {
 	font-family: EgyptianText;
+}
+
+
+.drop-cap {
+	float: left;
+	vertical-align: top;
+	color: #951c55;
+	font-size: 4rem;
+	line-height: 4.2rem;
+	padding-right: 5px;
+}
+
+.content {
+	max-width: 750px;
+}
+
+.ingredients-head {
+	border-top: #333 dotted 1px;
+	padding-top: 0.5em;
+}
+
+.ingredients {
+
+}
+
+.ingredients__item-measure {
+	font-weight: bold;
+}
+
+.instructions {
+	margin: 2em 0;
+	padding-top: 1em;
+	border-top: #333 dotted 1px;
+}
+
+.instructions__item {
+	margin-bottom: 2rem;
+	line-height: 1.5em;
 }
