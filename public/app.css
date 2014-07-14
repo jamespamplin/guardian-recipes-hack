@@ -38,7 +38,6 @@ html body {
 	font-size: 13px;
 }
 
-
 .drop-cap {
 	float: left;
 	vertical-align: top;
@@ -133,4 +132,13 @@ article {
 	border-top: #333 dotted 1px;
 	padding-top: 1em;
 	margin: 2em 0;
+}
+
+article div:first-child p:first-letter {
+	color: #951c55;
+	font-size: 6rem;
+	float: left;
+	vertical-align: top;
+	line-height: 6rem;
+	padding-right: 5px;
 }
