@@ -14,10 +14,10 @@
 	<div class="container">
 		<div class="row">
 			<ul class="info__list col-sm-9 col-sm-offset-2 list-inline">
-				<li class="info__list-item"><i class="fa fa-user"></i> 1 person</li>
-				<li class="info__list-item"><i class="fa fa-clock-o"></i> 5 mins</li>
-				<li class="info__list-item"><i class="fa fa-cutlery"></i> Easy</li>
-				<li class="info__list-item"><i class="info__list-item-pound">£</i>1.52</li>
+				<li class="info__list-item"><i class="fa fa-user"></i> {{ recipe.recipeYield }}</li>
+				<li class="info__list-item"><i class="fa fa-clock-o"></i> {{ recipe.totalTime }}</li>
+				<li class="info__list-item"><i class="fa fa-cutlery"></i> {{ recipe.difficulty }}</li>
+				<li class="info__list-item"><i class="info__list-item-pound">£</i>{{ recipe.cost }}</li>
 			</ul>
 		</div>
 	</div>

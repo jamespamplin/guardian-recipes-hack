@@ -3,6 +3,10 @@
     "name": "How to make perfect cheese on toast",
     "description": "This wonderful staple is often overlooked for it's simplicity, but offers a wonderful, warming and nostalgic treat for the tastebuds.",
     "image": "/recipe-data/cheese-toast.jpg",
+    "totalTime": "5 minutes",
+    "recipeYield": "1 person",
+    "difficulty": "Easy",
+    "cost": "1.52",
     "ingredients": [
         {
             "name": "thick White bread",
