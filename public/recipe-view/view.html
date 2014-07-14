@@ -45,6 +45,11 @@
 
 			<ol class="instructions list-unstyled">
 				<li class="instructions__item clearfix" ng-repeat="step in recipe.recipeInstructions">
+					<div class="instructions__item-ingredients">
+						<ul class="list-unstyled pull-right">
+							<li ng-repeat="i in step.ingredients">{{ i }}</li>
+						</ul>
+					</div>
 					<span class="drop-cap">{{ $index + 1}}.</span>{{ step.description }}
 				</li>
 			</ol>

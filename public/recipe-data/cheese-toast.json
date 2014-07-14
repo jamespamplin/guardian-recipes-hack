@@ -36,19 +36,32 @@
             "description": "Preheat your grill to the medium setting."
         },
         {
-            "description": "Grate or julienne your cheese."
+            "description": "Grate or julienne your cheese.",
+            "ingredients": [
+                "Cheese"
+            ]
         },
         {
-            "description": "Slice your bread (in this example I’m using a free range open source organic San Francisco sourdough)."
+            "description": "Slice your bread (in this example I’m using a free range open source organic San Francisco sourdough).",
+            "ingredients": [
+                "Bread"
+            ]
         },
         {
             "description": "Remove the half toasted bread and turn it so the untoasted side is facing upwards."
         },
         {
-            "description": "Place 100g of cheese on each slice and return to the grill for 3-5 minutes."
+            "description": "Place 100g of cheese on each slice and return to the grill for 3-5 minutes.",
+            "ingredients": [
+                "Cheese"
+            ]
         },
         {
-            "description": "Remove your cheese on toast from the grill and add splashes of Lea & Perrins sauce and a sprinkle of popping candy."
+            "description": "Remove your cheese on toast from the grill and add splashes of Lea & Perrins sauce and a sprinkle of popping candy.",
+            "ingredients": [
+                "Lea & Perrins",
+                "Popping candy"
+            ]
         },
         {
             "description": "Serve and enjoy."

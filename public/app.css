@@ -45,7 +45,8 @@ html body {
 	color: #951c55;
 	font-size: 4rem;
 	line-height: 4.2rem;
-	padding-right: 5px;
+	padding-right: 20px;
+	margin-bottom: 10px;
 }
 
 .content {
@@ -64,7 +65,7 @@ html body {
 .header__title {
 	font-weight: normal;
 	font-family: EgyptianHeadline;
-	margin: 0;
+	margin: 0 0 0.5em;
 }
 
 .header__category {
@@ -112,8 +113,20 @@ html body {
 }
 
 .instructions__item {
+	position: relative;
 	margin-bottom: 2rem;
 	line-height: 1.5em;
+}
+
+.instructions__item-ingredients {
+	position: absolute;
+	text-align: right;
+	width: 100px;
+	left: -120px;
+}
+.instructions__item-ingredients ul {
+	border-top: #333 dotted 1px;
+	text-transform: lowercase;
 }
 
 article {
