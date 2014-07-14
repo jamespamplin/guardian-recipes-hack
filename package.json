@@ -1,0 +1,15 @@
+{
+  "name": "guardian-recipes-hack",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamespamplin/guardian-recipes-hack.git"
+  },
+  "dependencies": {
+    "http-server": "^0.6.1"
+  }
+}
