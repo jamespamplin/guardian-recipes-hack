@@ -2,6 +2,9 @@
   "registry": "jspm",
   "dependencies": {
     "angular": "1.2.18",
-    "angular-route": "github:components/angular-route@^1.2.0"
+    "angular-route": "github:components/angular-route@^1.2.0",
+    "bootstrap": "github:twbs/bootstrap@3.2.0",
+    "css": "^0.1.0",
+    "jquery": "^2.1.1"
   }
 }

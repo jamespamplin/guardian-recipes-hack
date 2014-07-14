@@ -1,5 +1,6 @@
 import angular from 'angular';
 import 'angular-route';
+import 'bootstrap';
 
 import './recipes-list/recipes-list';
 import './recipe-view/recipe-view';
