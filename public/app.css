@@ -29,6 +29,10 @@ html body {
 	max-width: 750px;
 }
 
+.content figure {
+	margin: 1.5em 0;
+}
+
 .ingredients-head {
 	border-top: #333 dotted 1px;
 	padding-top: 0.5em;
@@ -51,4 +55,10 @@ html body {
 .instructions__item {
 	margin-bottom: 2rem;
 	line-height: 1.5em;
+}
+
+article {
+	border-top: #333 dotted 1px;
+	padding-top: 1em;
+	margin: 2em 0;
 }

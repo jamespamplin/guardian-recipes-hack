@@ -1,5 +1,7 @@
 <h1>{{ recipe.name }}</h1>
-<img src="{{ recipe.image }}"/>
+<figure>
+	<img src="{{ recipe.image }}"/>
+</figure>
 <p>{{ recipe.description }}</p>
 
 <h2 class="ingredients-head">Ingredients</h2>
@@ -16,3 +18,10 @@
 </ol>
 
 <button type="button" class="btn btn-default">Cook</button>
+
+<article>
+	<div ng-repeat="content in recipe.content">
+		<h2 ng-if="content.name">{{ content.name }}</h2>
+		<p>{{content.data}}</p>
+	</div>
+</article>
