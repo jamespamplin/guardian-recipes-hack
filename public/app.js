@@ -5,6 +5,7 @@ import 'bootstrap';
 import './recipes-list/recipes-list';
 import './recipe-view/recipe-view';
 
+import 'github:components/font-awesome@4.1.0/css/font-awesome.css!';
 import 'app.css!';
 
 angular.module('recipeHack', ['ngRoute', 'recipeView', 'recipesList'])

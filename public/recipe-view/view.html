@@ -1,4 +1,24 @@
-<h1>{{ recipe.name }}</h1>
+<header class="header">
+	<div class="container">
+		<div class="header__category">
+			<a class="tone-colour" href="http://www.theguardian.com/lifeandstyle">life and style</a>
+		</div>
+		<h1 class="header__title">{{ recipe.name }}</h1>
+	</div>
+</header>
+<section class="info">
+	<div class="container">
+		<ul class="info__list list-inline">
+			<li class="info__list-item"><i class="fa fa-user"></i> 1 person</li>
+			<li class="info__list-item"><i class="fa fa-clock-o"></i> 5 mins</li>
+			<li class="info__list-item"><i class="fa fa-cutlery"></i> Easy</li>
+			<li class="info__list-item"><i class="info__list-item-pound">£</i>1.52</li>
+		</ul>
+	</div>
+</section>
+
+<section class="content container">
+
 <figure>
 	<img src="{{ recipe.image }}"/>
 </figure>
@@ -25,3 +45,5 @@
 		<p>{{content.data}}</p>
 	</div>
 </article>
+
+</section>

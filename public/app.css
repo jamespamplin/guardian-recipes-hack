@@ -10,9 +10,32 @@
 	font-weight: bold;
 }
 
+@font-face {
+	font-family: EgyptianHeadline;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
+}
+
 
 html body {
 	font-family: EgyptianText;
+}
+
+.top-nav {
+	border-top: 2px solid #005689;
+}
+
+.top-nav__logo-wrapper {
+	margin: 1em 0;
+	float: right;
+	position: relative;
+}
+
+.top-nav__logo-wrapper:after {
+	content: 'recipe hack';
+	position: absolute;
+	top: 48px;
+	left: 128px;
+	font-size: 13px;
 }
 
 
@@ -31,6 +54,47 @@ html body {
 
 .content figure {
 	margin: 1.5em 0;
+}
+
+.header {
+	background: #951c55;
+	color: #fff;
+	padding: 1em 0;
+}
+
+.header__title {
+	font-weight: normal;
+	font-family: EgyptianHeadline;
+	margin: 0 0 0 160px;
+}
+
+.header__category {
+	margin-left: 160px;
+	float: left;
+	margin-left: -0;
+}
+
+.header__category a,
+.header__category a:hover {
+	color: #fff;
+	font-size: 20px;
+}
+
+.info {
+	background: #b62766;
+	padding: 0.5em 0 1em;
+	color: #fff;
+	font-size: 16px;
+}
+
+.info .info__list {
+	margin-left: 160px;
+}
+
+.info__list-item-pound {
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: normal;
 }
 
 .ingredients-head {
