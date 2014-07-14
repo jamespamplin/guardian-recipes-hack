@@ -1,6 +1,8 @@
 {
   "@type": "http://schema.org/Recipe",
   "name": "Cheese on Toast",
+  "description": "This wonderful staple is often overlooked for it's simplicity, but offers a wonderful, warming and nostalgic treat for the tastebuds.",
+  "image": "/recipe-data/cheese-toast.jpg",
   "ingredients": [
     {
       "name": "thick White bread",
