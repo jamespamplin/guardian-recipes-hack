@@ -49,7 +49,6 @@ html body {
 }
 
 .content {
-	max-width: 750px;
 }
 
 .content figure {
@@ -65,13 +64,10 @@ html body {
 .header__title {
 	font-weight: normal;
 	font-family: EgyptianHeadline;
-	margin: 0 0 0 160px;
+	margin: 0;
 }
 
 .header__category {
-	margin-left: 160px;
-	float: left;
-	margin-left: -0;
 }
 
 .header__category a,
@@ -88,7 +84,6 @@ html body {
 }
 
 .info .info__list {
-	margin-left: 160px;
 }
 
 .info__list-item-pound {

@@ -1,49 +1,68 @@
 <header class="header">
 	<div class="container">
-		<div class="header__category">
-			<a class="tone-colour" href="http://www.theguardian.com/lifeandstyle">life and style</a>
+		<div class="row">
+			<div class="header__category col-sm-2">
+				<a class="tone-colour" href="http://www.theguardian.com/lifeandstyle">life and style</a>
+			</div>
+			<div class="col-sm-9">
+				<h1 class="header__title">{{ recipe.name }}</h1>
+			</div>
 		</div>
-		<h1 class="header__title">{{ recipe.name }}</h1>
 	</div>
 </header>
 <section class="info">
 	<div class="container">
-		<ul class="info__list list-inline">
-			<li class="info__list-item"><i class="fa fa-user"></i> 1 person</li>
-			<li class="info__list-item"><i class="fa fa-clock-o"></i> 5 mins</li>
-			<li class="info__list-item"><i class="fa fa-cutlery"></i> Easy</li>
-			<li class="info__list-item"><i class="info__list-item-pound">£</i>1.52</li>
-		</ul>
+		<div class="row">
+			<ul class="info__list col-sm-9 col-sm-offset-2 list-inline">
+				<li class="info__list-item"><i class="fa fa-user"></i> 1 person</li>
+				<li class="info__list-item"><i class="fa fa-clock-o"></i> 5 mins</li>
+				<li class="info__list-item"><i class="fa fa-cutlery"></i> Easy</li>
+				<li class="info__list-item"><i class="info__list-item-pound">£</i>1.52</li>
+			</ul>
+		</div>
 	</div>
 </section>
 
-<section class="content container">
+<div class="container">
+	<div class="row">
+		<section class="col-sm-2">
+			<!-- left content -->
+		</section>
 
-<figure>
-	<img src="{{ recipe.image }}"/>
-</figure>
-<p>{{ recipe.description }}</p>
+		<section class="content col-sm-7">
 
-<h2 class="ingredients-head">Ingredients</h2>
-<ul class="ingredients">
-	<li class="ingredients__item" ng-repeat="i in recipe.ingredients">
-		<span class="ingredients__item-measure">{{ i.amountOfThisGood }} {{ i.unit }}</span> {{ i.name }}
-	</li>
-</ul>
+			<figure>
+				<img class="img-responsive" src="{{ recipe.image }}"/>
+			</figure>
+			<p>{{ recipe.description }}</p>
 
-<ol class="instructions list-unstyled">
-	<li class="instructions__item clearfix" ng-repeat="step in recipe.recipeInstructions">
-		<span class="drop-cap">{{ $index + 1}}.</span>{{ step.description }}
-	</li>
-</ol>
+			<h2 class="ingredients-head">Ingredients</h2>
+			<ul class="ingredients">
+				<li class="ingredients__item" ng-repeat="i in recipe.ingredients">
+					<span class="ingredients__item-measure">{{ i.amountOfThisGood }} {{ i.unit }}</span> {{ i.name }}
+				</li>
+			</ul>
 
-<button type="button" class="btn btn-default">Cook</button>
+			<ol class="instructions list-unstyled">
+				<li class="instructions__item clearfix" ng-repeat="step in recipe.recipeInstructions">
+					<span class="drop-cap">{{ $index + 1}}.</span>{{ step.description }}
+				</li>
+			</ol>
 
-<article>
-	<div ng-repeat="content in recipe.content">
-		<h2 ng-if="content.name">{{ content.name }}</h2>
-		<p>{{content.data}}</p>
+			<button type="button" class="btn btn-default">Cook</button>
+
+			<article>
+				<div ng-repeat="content in recipe.content">
+					<h2 ng-if="content.name">{{ content.name }}</h2>
+					<p>{{content.data}}</p>
+				</div>
+			</article>
+
+		</section>
+
+		<section class="col-sm-3">
+			<!-- right content -->
+		</section>
+
 	</div>
-</article>
-
-</section>
+</div>
