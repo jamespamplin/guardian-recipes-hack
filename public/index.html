@@ -5,5 +5,15 @@
 </head>
 <body>
 <h1>Hack...</h1>
+
+<div ng-view></div>
+
+<script src="https://jspm.io/system@0.6.7.js"></script>
+<script src="config.js"></script>
+<script>
+System.import('app').catch(function(error) {
+  setTimeout(function() { throw error; }, 0);
+});
+</script>
 </body>
 </html>

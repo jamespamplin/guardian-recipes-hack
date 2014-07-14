@@ -1,3 +1,7 @@
 {
-  "registry": "jspm"
+  "registry": "jspm",
+  "dependencies": {
+    "angular": "1.2.18",
+    "angular-route": "github:components/angular-route@^1.2.0"
+  }
 }
