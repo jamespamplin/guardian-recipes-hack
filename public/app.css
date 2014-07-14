@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: EgyptianText;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Regular.woff);
+}
+
+html body {
+	font-family: EgyptianText;
+}

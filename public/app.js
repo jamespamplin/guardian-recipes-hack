@@ -5,6 +5,8 @@ import 'bootstrap';
 import './recipes-list/recipes-list';
 import './recipe-view/recipe-view';
 
+import 'app.css!';
+
 angular.module('recipeHack', ['ngRoute', 'recipeView', 'recipesList'])
 
   .config(['$routeProvider', function($routeProvider) {
