@@ -142,3 +142,25 @@ article div:first-child p:first-letter {
 	line-height: 6rem;
 	padding-right: 5px;
 }
+
+.content-ad {
+
+}
+
+.content-ad p {
+	color: #666;
+	font-size: 12px;
+}
+
+.content-ad img {
+	border: 1px solid #878787;
+	margin: 0.3em 0;
+}
+
+.content-ad__title {
+	border-top: #333 dotted 1px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5em;
+}
