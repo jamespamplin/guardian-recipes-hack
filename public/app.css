@@ -5,13 +5,13 @@
 }
 
 @font-face {
-	font-family: EgyptianText;
+	font-family: AgateSans;
 	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Medium.woff);
 	font-weight: bold;
 }
 
 @font-face {
-	font-family: EgyptianHeadline;
+	font-family: AgateSans;
 	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
 }
 
