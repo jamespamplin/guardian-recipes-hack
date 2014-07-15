@@ -16,8 +16,23 @@
 }
 
 
+@font-face {
+	font-family: AgateSans;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Regular.woff);
+}
+
+@font-face {
+	font-family: AgateSans;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Bold.woff);
+	font-weight: bold;
+}
+
 html body {
 	font-family: EgyptianText;
+}
+
+.agate{
+	font-family: AgateSans;
 }
 
 .top-nav {
