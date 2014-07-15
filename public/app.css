@@ -15,9 +15,30 @@
 	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
 }
 
+@font-face {
+	font-family: EgyptianHeadlineSemi;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Semibold-redux.woff);
+}
+
+
+@font-face {
+	font-family: AgateSans;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Regular.woff);
+}
+
+@font-face {
+	font-family: AgateSans;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Bold.woff);
+	font-weight: bold;
+}
 
 html body {
 	font-family: EgyptianText;
+}
+
+.agate{
+	font-family: AgateSans;
+	color: #767676;
 }
 
 .top-nav {
@@ -65,7 +86,7 @@ html body {
 }
 
 .content figure {
-	margin: 0 0 1.5em;
+	margin: 0 0 0.6em;
 }
 
 .header {
@@ -108,10 +129,13 @@ html body {
 
 .ingredients-head {
 	border-top: #333 dotted 1px;
-	padding-top: 0.5em;
+	padding-top: 0.2em;
+	font-family: EgyptianHeadlineSemi;
+	font-size: 20px;
 }
 
-.ingredients {
+.ingredients li{
+	font-family: AgateSans;
 
 }
 
@@ -141,6 +165,8 @@ html body {
 	text-align: right;
 	width: 140px;
 	left: -160px;
+	font-family: AgateSans;
+	color: #767676;
 }
 .instructions__item-ingredients ul {
 	border-top: #333 dotted 1px;
