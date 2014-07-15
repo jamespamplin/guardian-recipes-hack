@@ -233,3 +233,43 @@ article div:first-child p:first-letter {
 	font-size: 16px;
 	line-height: 1.5em;
 }
+
+.timer-wrapper {
+	margin-top: 880px;
+	border-top: #333 dotted 1px;
+	padding-top: 5px;
+}
+
+.timer-wrapper h4 {
+	font-weight: bold;
+}
+
+.timer {
+	position: relative;
+	text-align: center;
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 20px;
+}
+
+.timer .percent {
+	display: inline-block;
+	line-height: 110px;
+	z-index: 2;
+}
+
+.timer canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.timer__sponsor-text {
+	color: #666;
+}
+
+.timer__sponsor {
+	color: #333;
+	display: block;
+	text-transform: uppercase;
+}

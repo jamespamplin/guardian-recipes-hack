@@ -85,7 +85,17 @@
 		</section>
 
 		<section class="col-sm-3">
-			<!-- right content -->
+			<div class="timer-wrapper">
+				<div class="timer__sponsor-text pull-right small">sponsored by:<span class="timer__sponsor">Mondaine&reg;</span></div>
+				<h4>Timer</h4>
+				<div class="timer" easypiechart percent="timerValue" options="timerOptions">
+					<span class="percent" ng-bind="timerValueSeconds | formatTimer"></span>
+				</div>
+				<div class="text-center">
+					<button type="button" class="btn btn-default btn-sm" ng-click="toggleTimer()">{{ timerStarted && 'Pause' || 'Start' }} timer</button>
+					<button type="button" class="btn btn-default btn-sm" ng-click="resetTimer()">Reset timer</button>
+				</div>
+			</div>
 		</section>
 
 	</div>
