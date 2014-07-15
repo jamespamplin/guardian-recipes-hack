@@ -1,7 +1,7 @@
 {
     "@type": "http://schema.org/Recipe",
     "name": "The Perfect Chocolate Cake",
-    "description": "Chocolate, naturally: the cast iron crowd-pleaser of cakes."
+    "description": "Chocolate, naturally: the cast iron crowd-pleaser of cakes.",
     "image": "recipe-data/chocolate-cake.jpg",
     "totalTime": "35 minutes",
     "recipeYield": "5 people",

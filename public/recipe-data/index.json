@@ -3,5 +3,10 @@
 		"id": "cheese-toast",
 		"name": "How to make perfect cheese on toast",
 		"description": "This wonderful staple is often overlooked for it's simplicity, but offers a wonderful, warming and nostalgic treat for the tastebuds."
+	},
+	{
+		"id": "chocolate-cake",
+		"name": "The Perfect Chocolate Cake",
+		"description": "Chocolate, naturally: the cast iron crowd-pleaser of cakes."
 	}
 ]
