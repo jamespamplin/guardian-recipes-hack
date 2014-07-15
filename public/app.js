@@ -17,8 +17,4 @@ angular.module('recipeHack', ['ngRoute', 'recipeView', 'recipesList'])
       .otherwise({ redirectTo: '/' });
   }]);
 
-if (window.location.host.indexOf('github')) {
-  angular.element('head').append('<base href="/guardian-recipes-hack/public/">');
-}
-
 angular.bootstrap(document, ['recipeHack']);

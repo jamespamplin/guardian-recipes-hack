@@ -18,7 +18,7 @@ angular.module('recipeView', [])
       get: function(recipeId) {
         return $http({
           method: 'GET',
-          url: '/recipe-data/' + recipeId + '.json'
+          url: 'recipe-data/' + recipeId + '.json'
         });
       }
     };
