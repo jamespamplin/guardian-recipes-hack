@@ -125,8 +125,8 @@ html body {
 .instructions__item-ingredients {
 	position: absolute;
 	text-align: right;
-	width: 100px;
-	left: -120px;
+	width: 140px;
+	left: -160px;
 }
 .instructions__item-ingredients ul {
 	border-top: #333 dotted 1px;
