@@ -165,6 +165,8 @@ html body {
 	text-align: right;
 	width: 140px;
 	left: -160px;
+	font-family: AgateSans;
+	color: #767676;
 }
 .instructions__item-ingredients ul {
 	border-top: #333 dotted 1px;
