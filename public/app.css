@@ -129,8 +129,9 @@ html body {
 
 .ingredients-head {
 	border-top: #333 dotted 1px;
-	padding-top: 0.5em;
+	padding-top: 0.2em;
 	font-family: EgyptianHeadlineSemi;
+	font-size: 20px;
 }
 
 .ingredients {
