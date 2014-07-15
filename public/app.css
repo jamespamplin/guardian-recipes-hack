@@ -1,23 +1,23 @@
 
 @font-face {
-	font-family: AgateSans;
-	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Regular.woff);
+	font-family: EgyptianText;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Regular.woff);
 }
 
 @font-face {
-	font-family: AgateSans;
-	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Medium.woff);
+	font-family: EgyptianText;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Medium.woff);
 	font-weight: bold;
 }
 
 @font-face {
-	font-family: AgateSans;
-	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Light.woff);
+	font-family: EgyptianHeadline;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
 }
 
 
 html body {
-	font-family: AgateSans;
+	font-family: EgyptianText;
 }
 
 .top-nav {
