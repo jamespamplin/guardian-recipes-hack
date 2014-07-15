@@ -13,6 +13,20 @@ angular.module('recipeView', [])
 
   }])
 
+  .directive('recipeTechnique', [function() {
+
+    return {
+      restrict: 'E',
+      templateUrl: 'recipe-view/recipe-technique.html',
+      scope: {
+        instruction: '='
+      },
+      link: function(scope, elem, attrs) {
+
+      }
+    };
+  }])
+
   .factory('recipeService', ['$http', function($http) {
     return {
       get: function(recipeId) {

@@ -115,6 +115,11 @@ html body {
 	position: relative;
 	margin-bottom: 2rem;
 	line-height: 1.5em;
+	padding-left: 60px;
+}
+
+.instructions__item .drop-cap {
+	margin-left: -60px;
 }
 
 .instructions__item-ingredients {
@@ -126,6 +131,18 @@ html body {
 .instructions__item-ingredients ul {
 	border-top: #333 dotted 1px;
 	text-transform: lowercase;
+}
+
+.instructions__technique {
+	background: #951c55;
+	font-size: 0.9em;
+	padding: 15px;
+	color: #fff;
+	margin-top: 0.5em;
+}
+
+.instructions__technique h5 {
+	font-weight: bold;
 }
 
 article {
