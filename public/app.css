@@ -48,11 +48,24 @@ html body {
 	margin-bottom: 10px;
 }
 
+.author__img {
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.author__byline {
+	border-top: 1px dotted #dfdfdf;
+	line-height: 2em;
+	margin-top: 1em;
+	color: #951c55;
+	font-weight: bold;
+}
+
 .content {
 }
 
 .content figure {
-	margin: 1.5em 0;
+	margin: 0 0 1.5em;
 }
 
 .header {
@@ -81,6 +94,7 @@ html body {
 	padding: 0.5em 0 1em;
 	color: #fff;
 	font-size: 16px;
+	margin-bottom: 1em;
 }
 
 .info .info__list {
