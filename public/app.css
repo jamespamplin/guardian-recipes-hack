@@ -6,13 +6,13 @@
 
 @font-face {
 	font-family: AgateSans;
-	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianText-Medium.woff);
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Medium.woff);
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: AgateSans;
-	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/AgateSans-Light.woff);
 }
 
 
