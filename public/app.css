@@ -134,7 +134,9 @@ html body {
 	font-size: 20px;
 }
 
-.ingredients {
+.ingredients ul{
+	padding-left: 16px;
+	font-family: AgateSans;
 
 }
 
