@@ -15,6 +15,11 @@
 	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Light.woff);
 }
 
+@font-face {
+	font-family: EgyptianHeadlineSemi;
+	src: url(https://github.com/guardian/frontend/raw/master/resources/fonts/EgyptianHeadline-Semibold-redux.woff);
+}
+
 
 @font-face {
 	font-family: AgateSans;
@@ -125,6 +130,7 @@ html body {
 .ingredients-head {
 	border-top: #333 dotted 1px;
 	padding-top: 0.5em;
+	font-family: EgyptianHeadlineSemi;
 }
 
 .ingredients {
