@@ -145,6 +145,18 @@ html body {
 	font-weight: bold;
 }
 
+.instructions__technique-wrapper {
+  -webkit-transition:all linear 0.2s;
+  transition:all linear 0.2s;
+  opacity: 1;
+  display: block !important;
+}
+
+.instructions__technique-wrapper.ng-hide {
+  opacity: 0;
+  height: 0;
+}
+
 article {
 	border-top: #333 dotted 1px;
 	padding-top: 1em;

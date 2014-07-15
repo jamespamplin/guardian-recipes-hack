@@ -50,8 +50,18 @@
 							<li ng-repeat="i in step.ingredients">{{ i }}</li>
 						</ul>
 					</div>
-					<span class="drop-cap">{{ $index + 1}}.</span>{{ step.description }}
-					<recipe-technique instruction="step"/>
+					<div ng-if="step.description.indexOf('julienne') !== -1">
+						<span class="drop-cap">{{ $index + 1}}.</span>
+						{{ step.description.substring(0, step.description.indexOf('julienne')) }}
+						<a ng-click="showTechnique = !showTechnique">julienne</a>
+						{{ step.description.substring(step.description.indexOf('julienne') + 8) }}
+						<div class="instructions__technique-wrapper" ng-show="showTechnique">
+							<recipe-technique instruction="step"/>
+						</div>
+					</div>
+					<div ng-if="step.description.indexOf('julienne') == -1">
+						<span class="drop-cap">{{ $index + 1}}.</span>{{ step.description }}
+					</div>
 				</li>
 			</ol>
 
