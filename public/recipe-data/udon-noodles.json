@@ -1,0 +1,133 @@
+{
+    "@type": "http://schema.org/Recipe",
+    "name": "Yotam Ottolenghi's udon noodles with miso and walnuts recipe",
+    "description": "The deep sweetness and intensity produced by miso paste, combined with other Japanese staples, are guaranteed to put a smile on an overcast winter face. A decent ­vegetarian dashi can be made by boiling kombu, an edible kelp, for just five minutes (buy it at oriental or healthfood stores).",
+    "image": "recipe-data/udon-noodles.jpg",
+    "totalTime": "5 minutes",
+    "recipeYield": "4 people",
+    "difficulty": "Easy",
+    "cost": "5.68",
+    "ingredients": [
+        {
+            "amountOfThisGood": 0.5,
+            "name": "medium cucumber"
+        },
+        {
+            "amountOfThisGood": 3,
+            "name": "spring onions"
+        },
+        {
+            "amountOfThisGood": 2,
+            "name": "small aubergines"
+        },
+        {
+            "amountOfThisGood": 250,
+            "unit": "ml",
+            "name": "sunflower oil"
+        },
+        {
+            "amountOfThisGood": 1,
+            "unit": "tbsp",
+            "name": "extra Salt"
+        },
+        {
+            "amountOfThisGood": 100,
+            "unit": "g",
+            "name": "shallots, thinly sliced"
+        },
+        {
+            "amountOfThisGood": 1,
+            "unit": "tbsp",
+            "name": "chopped ginger"
+        },
+        {
+            "amountOfThisGood": 2,
+            "name": "garlic cloves, crushed"
+        },
+        {
+            "amountOfThisGood": 120,
+            "unit": "g",
+            "name": "walnuts, lightly toasted and roughly chopped"
+        },
+        {
+            "amountOfThisGood": 2,
+            "unit": "tbsp",
+            "name": "mild miso paste"
+        },
+        {
+            "amountOfThisGood": 150,
+            "unit": "ml",
+            "name": "vegetarian dashi"
+        },
+        {
+            "amountOfThisGood": 3,
+            "unit": "tbsp",
+            "name": "mirin"
+        },
+        {
+            "amountOfThisGood": 2,
+            "unit": "tbsp",
+            "name": "soy sauce"
+        },
+        {
+            "amountOfThisGood": 1,
+            "unit": "tbsp",
+            "name": "caster sugar"
+        },
+        {
+            "amountOfThisGood": 1,
+            "unit": "tbsp",
+            "name": "sake, optional"
+        },
+        {
+            "amountOfThisGood": 250,
+            "unit": "g",
+            "name": "udon noodles"
+        }
+    ],
+    "recipeInstructions": [
+        {
+            "ingredients": [
+                "cucumber",
+                "spring onions"
+            ],
+            "description": "Cut the cucumber into long, thin, 2mm-thick strips and chill. Cut the spring onions in two from top to bottom, then cut into thin julienne, put into a bowl of iced water and chill."
+        },
+        {
+            "ingredients": [
+                "aubergines",
+                "oil",
+                "salt"
+            ],
+            "description": "Use a potato peeler to peel strips of skin from the aubergines, from top to bottom, so it leaves a stripy pattern; cut the aubergines into 2.5cm-thick discs, then cut each disc into four. Heat 250ml oil in a ­medium pan and deep-fry the ­aubergine in batches until golden and cooked through. Transfer to a colander, sprinkle with a little salt and leave to drain."
+        },
+        {
+            "ingredients": [
+                "shallots",
+                "ginger",
+                "garlic",
+                "walnuts"
+            ],
+            "description": "Put the shallots and remaining oil in a large pan and sauté on medium heat. Once they soften up, after about two minutes, add the ginger and garlic, and cook on low heat for five minutes. Add the walnuts and fried aubergine, stir and set aside."
+        },
+        {
+            "ingredients": [
+                "miso paste",
+                "vegetarian dashi",
+                "mirin"
+            ],
+            "description": "In a bowl, whisk the remaining ­ingredients bar the noodles, ­cucumber and spring onions, then add to the pan."
+        },
+        {
+            "ingredients": [
+                "walnut sauce",
+                "noodles"
+            ],
+            "description": "Cook the noodles as ­instructed on the packet. While you do so, ­reheat the sauce and allow some evaporation so it thickens a ­little but not much. Serve individual portions of hot noodles, topped in the centre with walnut sauce. Finish with a sprinkling of the cucumber and spring onion, drained and dried."
+        }
+    ],
+    "nutrition": {
+        "@type": "http://schema.org/NutritionInformation",
+        "calories": 648
+    }
+}

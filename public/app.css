@@ -89,6 +89,10 @@ html body {
 	margin: 0 0 0.6em;
 }
 
+.content figure img.img-responsive {
+	min-width: 100%;
+}
+
 .header {
 	background: #951c55;
 	color: #fff;
@@ -167,6 +171,7 @@ html body {
 	left: -160px;
 	font-family: AgateSans;
 	color: #767676;
+	line-height: 120%;
 }
 .instructions__item-ingredients ul {
 	border-top: #333 dotted 1px;
