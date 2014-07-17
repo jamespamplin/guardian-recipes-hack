@@ -225,6 +225,11 @@ article div:first-child p:first-letter {
 
 }
 
+.content-ad__right {
+	top: 480px;
+	position: relative;
+}
+
 .content-ad p {
 	color: #666;
 	font-size: 12px;
@@ -244,7 +249,7 @@ article div:first-child p:first-letter {
 }
 
 .timer-wrapper {
-	margin-top: 880px;
+	margin-top: 1043px;
 	border-top: #333 dotted 1px;
 	padding-top: 5px;
 }
